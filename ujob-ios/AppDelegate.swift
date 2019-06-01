@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        runApplication()
+        
         return true
     }
 
@@ -22,10 +24,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 extension AppDelegate {
     private func runApplication() {
-        let rootVC = ViewController()
+        let vc = HomePageVC()
+        let nvc = UINavigationController(rootViewController: vc)
+        
         window = UIWindow()
         window?.makeKeyAndVisible()
-        window?.rootViewController = rootVC
+        window?.rootViewController = nvc
     }
 }
 

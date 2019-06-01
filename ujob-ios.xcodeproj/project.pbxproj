@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		5025AACA319129710DFD0E24 /* Pods_ujob_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38D515EDD838CE065A1E85 /* Pods_ujob_iosTests.framework */; };
 		57114FE022A233630084871E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57114FDF22A233630084871E /* AppDelegate.swift */; };
-		57114FE222A233630084871E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57114FE122A233630084871E /* ViewController.swift */; };
 		57114FE522A233630084871E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57114FE322A233630084871E /* Main.storyboard */; };
 		57114FE722A233650084871E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57114FE622A233650084871E /* Assets.xcassets */; };
 		57114FEA22A233650084871E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57114FE822A233650084871E /* LaunchScreen.storyboard */; };
 		57114FF522A233650084871E /* ujob_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57114FF422A233650084871E /* ujob_iosTests.swift */; };
 		5711500022A233650084871E /* ujob_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57114FFF22A233650084871E /* ujob_iosUITests.swift */; };
+		5711501522A249E20084871E /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711501422A249E20084871E /* HomePageVC.swift */; };
+		5711501922A24A3C0084871E /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711501822A24A3C0084871E /* BaseVC.swift */; };
+		5711501C22A24B230084871E /* UIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711501B22A24B230084871E /* UIs.swift */; };
 		58CC2E64635BB789DB8FB309 /* Pods_ujob_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2DB84A2F6BEBECEDA2D40C /* Pods_ujob_iosUITests.framework */; };
 		D7BF9939CF08C3861460A444 /* Pods_ujob_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D25E73F4877F61169771456 /* Pods_ujob_ios.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +42,6 @@
 		1373BC0F9A1BA4756E9EB1B0 /* Pods-ujob-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ujob-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-ujob-iosUITests/Pods-ujob-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		57114FDC22A233630084871E /* ujob-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ujob-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57114FDF22A233630084871E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57114FE122A233630084871E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57114FE422A233630084871E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57114FE622A233650084871E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57114FE922A233650084871E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		57114FFB22A233650084871E /* ujob-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ujob-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57114FFF22A233650084871E /* ujob_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ujob_iosUITests.swift; sourceTree = "<group>"; };
 		5711500122A233650084871E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5711501422A249E20084871E /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		5711501822A24A3C0084871E /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		5711501B22A24B230084871E /* UIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIs.swift; sourceTree = "<group>"; };
 		5A098D7D3C75190517B953E8 /* Pods-ujob-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ujob-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-ujob-iosUITests/Pods-ujob-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5D25E73F4877F61169771456 /* Pods_ujob_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ujob_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C64CF1B4D5B0B9D506C548 /* Pods-ujob-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ujob-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-ujob-iosTests/Pods-ujob-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,7 +146,8 @@
 		5711500D22A246B50084871E /* UIs */ = {
 			isa = PBXGroup;
 			children = (
-				57114FE122A233630084871E /* ViewController.swift */,
+				5711501622A249FE0084871E /* Scenes */,
+				5711501A22A24B190084871E /* Utils */,
 			);
 			path = UIs;
 			sourceTree = "<group>";
@@ -156,6 +161,31 @@
 				57114FE322A233630084871E /* Main.storyboard */,
 			);
 			name = Supports;
+			sourceTree = "<group>";
+		};
+		5711501622A249FE0084871E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5711501422A249E20084871E /* HomePageVC.swift */,
+				5711501722A24A310084871E /* Base */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5711501722A24A310084871E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5711501822A24A3C0084871E /* BaseVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5711501A22A24B190084871E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5711501B22A24B230084871E /* UIs.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		6F316D553FC0DF225FBDABD9 /* Frameworks */ = {
@@ -402,8 +432,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57114FE222A233630084871E /* ViewController.swift in Sources */,
 				57114FE022A233630084871E /* AppDelegate.swift in Sources */,
+				5711501C22A24B230084871E /* UIs.swift in Sources */,
+				5711501522A249E20084871E /* HomePageVC.swift in Sources */,
+				5711501922A24A3C0084871E /* BaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
