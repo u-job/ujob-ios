@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57114FE022A233630084871E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57114FDF22A233630084871E /* AppDelegate.swift */; };
+		57114FE222A233630084871E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57114FE122A233630084871E /* ViewController.swift */; };
+		57114FE522A233630084871E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57114FE322A233630084871E /* Main.storyboard */; };
+		57114FE722A233650084871E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57114FE622A233650084871E /* Assets.xcassets */; };
+		57114FEA22A233650084871E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57114FE822A233650084871E /* LaunchScreen.storyboard */; };
+		57114FF522A233650084871E /* ujob_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57114FF422A233650084871E /* ujob_iosTests.swift */; };
+		5711500022A233650084871E /* ujob_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57114FFF22A233650084871E /* ujob_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57114FF122A233650084871E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57114FD422A233630084871E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57114FDB22A233630084871E;
+			remoteInfo = "ujob-ios";
+		};
+		57114FFC22A233650084871E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57114FD422A233630084871E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57114FDB22A233630084871E;
+			remoteInfo = "ujob-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57114FDC22A233630084871E /* ujob-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ujob-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57114FDF22A233630084871E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57114FE122A233630084871E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57114FE422A233630084871E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57114FE622A233650084871E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57114FE922A233650084871E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57114FEB22A233650084871E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57114FF022A233650084871E /* ujob-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ujob-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57114FF422A233650084871E /* ujob_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ujob_iosTests.swift; sourceTree = "<group>"; };
+		57114FF622A233650084871E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57114FFB22A233650084871E /* ujob-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ujob-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57114FFF22A233650084871E /* ujob_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ujob_iosUITests.swift; sourceTree = "<group>"; };
+		5711500122A233650084871E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57114FD922A233630084871E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57114FED22A233650084871E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57114FF822A233650084871E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57114FD322A233630084871E = {
+			isa = PBXGroup;
+			children = (
+				57114FDE22A233630084871E /* ujob-ios */,
+				57114FF322A233650084871E /* ujob-iosTests */,
+				57114FFE22A233650084871E /* ujob-iosUITests */,
+				57114FDD22A233630084871E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57114FDD22A233630084871E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57114FDC22A233630084871E /* ujob-ios.app */,
+				57114FF022A233650084871E /* ujob-iosTests.xctest */,
+				57114FFB22A233650084871E /* ujob-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57114FDE22A233630084871E /* ujob-ios */ = {
+			isa = PBXGroup;
+			children = (
+				57114FDF22A233630084871E /* AppDelegate.swift */,
+				57114FE122A233630084871E /* ViewController.swift */,
+				57114FE322A233630084871E /* Main.storyboard */,
+				57114FE622A233650084871E /* Assets.xcassets */,
+				57114FE822A233650084871E /* LaunchScreen.storyboard */,
+				57114FEB22A233650084871E /* Info.plist */,
+			);
+			path = "ujob-ios";
+			sourceTree = "<group>";
+		};
+		57114FF322A233650084871E /* ujob-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				57114FF422A233650084871E /* ujob_iosTests.swift */,
+				57114FF622A233650084871E /* Info.plist */,
+			);
+			path = "ujob-iosTests";
+			sourceTree = "<group>";
+		};
+		57114FFE22A233650084871E /* ujob-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57114FFF22A233650084871E /* ujob_iosUITests.swift */,
+				5711500122A233650084871E /* Info.plist */,
+			);
+			path = "ujob-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57114FDB22A233630084871E /* ujob-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5711500422A233650084871E /* Build configuration list for PBXNativeTarget "ujob-ios" */;
+			buildPhases = (
+				57114FD822A233630084871E /* Sources */,
+				57114FD922A233630084871E /* Frameworks */,
+				57114FDA22A233630084871E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ujob-ios";
+			productName = "ujob-ios";
+			productReference = 57114FDC22A233630084871E /* ujob-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57114FEF22A233650084871E /* ujob-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5711500722A233650084871E /* Build configuration list for PBXNativeTarget "ujob-iosTests" */;
+			buildPhases = (
+				57114FEC22A233650084871E /* Sources */,
+				57114FED22A233650084871E /* Frameworks */,
+				57114FEE22A233650084871E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57114FF222A233650084871E /* PBXTargetDependency */,
+			);
+			name = "ujob-iosTests";
+			productName = "ujob-iosTests";
+			productReference = 57114FF022A233650084871E /* ujob-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57114FFA22A233650084871E /* ujob-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5711500A22A233650084871E /* Build configuration list for PBXNativeTarget "ujob-iosUITests" */;
+			buildPhases = (
+				57114FF722A233650084871E /* Sources */,
+				57114FF822A233650084871E /* Frameworks */,
+				57114FF922A233650084871E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57114FFD22A233650084871E /* PBXTargetDependency */,
+			);
+			name = "ujob-iosUITests";
+			productName = "ujob-iosUITests";
+			productReference = 57114FFB22A233650084871E /* ujob-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57114FD422A233630084871E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = wk;
+				TargetAttributes = {
+					57114FDB22A233630084871E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					57114FEF22A233650084871E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 57114FDB22A233630084871E;
+					};
+					57114FFA22A233650084871E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 57114FDB22A233630084871E;
+					};
+				};
+			};
+			buildConfigurationList = 57114FD722A233630084871E /* Build configuration list for PBXProject "ujob-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57114FD322A233630084871E;
+			productRefGroup = 57114FDD22A233630084871E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57114FDB22A233630084871E /* ujob-ios */,
+				57114FEF22A233650084871E /* ujob-iosTests */,
+				57114FFA22A233650084871E /* ujob-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57114FDA22A233630084871E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57114FEA22A233650084871E /* LaunchScreen.storyboard in Resources */,
+				57114FE722A233650084871E /* Assets.xcassets in Resources */,
+				57114FE522A233630084871E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57114FEE22A233650084871E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57114FF922A233650084871E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57114FD822A233630084871E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57114FE222A233630084871E /* ViewController.swift in Sources */,
+				57114FE022A233630084871E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57114FEC22A233650084871E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57114FF522A233650084871E /* ujob_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57114FF722A233650084871E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5711500022A233650084871E /* ujob_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57114FF222A233650084871E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57114FDB22A233630084871E /* ujob-ios */;
+			targetProxy = 57114FF122A233650084871E /* PBXContainerItemProxy */;
+		};
+		57114FFD22A233650084871E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57114FDB22A233630084871E /* ujob-ios */;
+			targetProxy = 57114FFC22A233650084871E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57114FE322A233630084871E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57114FE422A233630084871E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57114FE822A233650084871E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57114FE922A233650084871E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5711500222A233650084871E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5711500322A233650084871E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5711500522A233650084871E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				INFOPLIST_FILE = "ujob-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wk.ujob-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5711500622A233650084871E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				INFOPLIST_FILE = "ujob-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wk.ujob-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5711500822A233650084871E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				INFOPLIST_FILE = "ujob-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wk.ujob-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ujob-ios.app/ujob-ios";
+			};
+			name = Debug;
+		};
+		5711500922A233650084871E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				INFOPLIST_FILE = "ujob-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wk.ujob-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ujob-ios.app/ujob-ios";
+			};
+			name = Release;
+		};
+		5711500B22A233650084871E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				INFOPLIST_FILE = "ujob-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wk.ujob-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ujob-ios";
+			};
+			name = Debug;
+		};
+		5711500C22A233650084871E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				INFOPLIST_FILE = "ujob-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wk.ujob-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ujob-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57114FD722A233630084871E /* Build configuration list for PBXProject "ujob-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5711500222A233650084871E /* Debug */,
+				5711500322A233650084871E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5711500422A233650084871E /* Build configuration list for PBXNativeTarget "ujob-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5711500522A233650084871E /* Debug */,
+				5711500622A233650084871E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5711500722A233650084871E /* Build configuration list for PBXNativeTarget "ujob-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5711500822A233650084871E /* Debug */,
+				5711500922A233650084871E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5711500A22A233650084871E /* Build configuration list for PBXNativeTarget "ujob-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5711500B22A233650084871E /* Debug */,
+				5711500C22A233650084871E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57114FD422A233630084871E /* Project object */;
+}
