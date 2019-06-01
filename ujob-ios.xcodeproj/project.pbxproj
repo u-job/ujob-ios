@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -115,11 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				57114FDF22A233630084871E /* AppDelegate.swift */,
-				57114FE122A233630084871E /* ViewController.swift */,
-				57114FE322A233630084871E /* Main.storyboard */,
-				57114FE622A233650084871E /* Assets.xcassets */,
-				57114FE822A233650084871E /* LaunchScreen.storyboard */,
-				57114FEB22A233650084871E /* Info.plist */,
+				5711500D22A246B50084871E /* UIs */,
+				5711500F22A2478F0084871E /* Supports */,
 			);
 			path = "ujob-ios";
 			sourceTree = "<group>";
@@ -142,6 +139,25 @@
 			path = "ujob-iosUITests";
 			sourceTree = "<group>";
 		};
+		5711500D22A246B50084871E /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				57114FE122A233630084871E /* ViewController.swift */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		5711500F22A2478F0084871E /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				57114FE622A233650084871E /* Assets.xcassets */,
+				57114FEB22A233650084871E /* Info.plist */,
+				57114FE822A233650084871E /* LaunchScreen.storyboard */,
+				57114FE322A233630084871E /* Main.storyboard */,
+			);
+			name = Supports;
+			sourceTree = "<group>";
+		};
 		6F316D553FC0DF225FBDABD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +178,6 @@
 				1373BC0F9A1BA4756E9EB1B0 /* Pods-ujob-iosUITests.debug.xcconfig */,
 				5A098D7D3C75190517B953E8 /* Pods-ujob-iosUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
