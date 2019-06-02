@@ -7,6 +7,7 @@ target 'ujob-ios' do
 
   # Pods for ujob-ios
   pod 'SnapKit'
+  pod 'SwiftLint'
   pod 'SDWebImage'
   pod 'Reveal-SDK', '~> 20.0', :configurations => ['Debug']
 
