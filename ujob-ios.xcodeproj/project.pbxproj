@@ -12,8 +12,6 @@
 		57114FE522A233630084871E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57114FE322A233630084871E /* Main.storyboard */; };
 		57114FE722A233650084871E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57114FE622A233650084871E /* Assets.xcassets */; };
 		57114FEA22A233650084871E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57114FE822A233650084871E /* LaunchScreen.storyboard */; };
-		57114FF522A233650084871E /* ujob_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57114FF422A233650084871E /* ujob_iosTests.swift */; };
-		5711500022A233650084871E /* ujob_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57114FFF22A233650084871E /* ujob_iosUITests.swift */; };
 		5711501522A249E20084871E /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711501422A249E20084871E /* HomePageVC.swift */; };
 		5711501922A24A3C0084871E /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711501822A24A3C0084871E /* BaseVC.swift */; };
 		5711501C22A24B230084871E /* UIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711501B22A24B230084871E /* UIs.swift */; };
@@ -47,10 +45,8 @@
 		57114FE922A233650084871E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57114FEB22A233650084871E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57114FF022A233650084871E /* ujob-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ujob-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57114FF422A233650084871E /* ujob_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ujob_iosTests.swift; sourceTree = "<group>"; };
 		57114FF622A233650084871E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57114FFB22A233650084871E /* ujob-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ujob-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57114FFF22A233650084871E /* ujob_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ujob_iosUITests.swift; sourceTree = "<group>"; };
 		5711500122A233650084871E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5711501422A249E20084871E /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
 		5711501822A24A3C0084871E /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
@@ -128,7 +124,6 @@
 		57114FF322A233650084871E /* ujob-iosTests */ = {
 			isa = PBXGroup;
 			children = (
-				57114FF422A233650084871E /* ujob_iosTests.swift */,
 				57114FF622A233650084871E /* Info.plist */,
 			);
 			path = "ujob-iosTests";
@@ -137,7 +132,6 @@
 		57114FFE22A233650084871E /* ujob-iosUITests */ = {
 			isa = PBXGroup;
 			children = (
-				57114FFF22A233650084871E /* ujob_iosUITests.swift */,
 				5711500122A233650084871E /* Info.plist */,
 			);
 			path = "ujob-iosUITests";
@@ -223,6 +217,7 @@
 				57114FD922A233630084871E /* Frameworks */,
 				57114FDA22A233630084871E /* Resources */,
 				E992E06F1BCAC12F724E2DE7 /* [CP] Embed Pods Frameworks */,
+				5706D24D22A3C00700CC6DE2 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -364,6 +359,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5706D24D22A3C00700CC6DE2 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
 		B31A44660E33EC5EA161CBCB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,7 +456,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57114FF522A233650084871E /* ujob_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +463,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5711500022A233650084871E /* ujob_iosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

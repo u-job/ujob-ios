@@ -1,0 +1,12 @@
+excluded: 
+  - Pods
+
+disabled_rules:
+  - trailing_whitespace
+
+
+nesting:
+  type_level:
+    warning: 2
+
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle)
