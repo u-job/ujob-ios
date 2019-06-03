@@ -1,0 +1,5 @@
+language: objective-c  
+osx_image: xcode10.2.1 
+xcode_project: ujob-ios.xcodeproj 
+xcode_scheme: ujob-ios 
+xcode_sdk: iphonesimulator12.2 
