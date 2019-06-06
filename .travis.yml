@@ -4,8 +4,10 @@ before_install:
     - rvm use system
     - sudo gem install cocoapods -v '1.7.1'
     - pod repo update  
+    - pod install
 
 osx_image: xcode10.2 
-xcode_project: ujob-ios.xcodeproj 
+# xcode_project: ujob-ios.xcodeproj 
+xcode_workspace: ujob-ios.xcworkspace
 xcode_scheme: ujob-ios 
-xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X 
+xcode_destination: platform=iOS Simulator,OS=11.1,name=iPhone X 
