@@ -3,7 +3,7 @@ language: objective-c
 before_install:
     - rvm use system
     - sudo gem install cocoapods -v '1.7.1'
-    - pod repo update  
+    - rm -rf ~/Library/Developer/Xcode/DerivedData
     - pod install
 
 osx_image: xcode10.2 
